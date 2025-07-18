@@ -1,0 +1,64 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="400" height="400"
+  viewBox="0 0 600 600"
+  preserveAspectRatio="xMidYMid meet">
+
+  <!-- Gruppe, die alles um 20 Einheiten nach unten schiebt -->
+  <g transform="translate(0,20)">
+    
+    <!-- Überblasklappe -->
+    <path d="M 245 -10 C 225 30 225 65 245 65 C 265 65 265 30 245 -10 Z" stroke="black" fill="none"/>
+
+    <!-- Daumenloch -->
+    <circle cx="245" cy="85" r="15" stroke="black" fill="none"/>
+
+    <!-- klingend b-Klappe -->
+    <path d="M 300 -10 C 270 30 270 70 300 70 C 330 70 330 30 300 -10 Z" stroke="black" fill="none"/>
+    
+    <!-- 1. Loch -->
+    <circle cx="300" cy="100" r="20" stroke="black" fill="none"/>
+    <!-- 2. Loch -->
+    <circle cx="300" cy="150" r="20" stroke="black" fill="none"/>
+    <!-- 3. Loch -->
+    <circle cx="300" cy="200" r="20" stroke="black" fill="none"/>
+    <!-- 4. Loch -->
+    <circle cx="300" cy="250" r="20" stroke="black" fill="none"/>
+    <!-- 5. Loch -->
+    <circle cx="300" cy="300" r="20" stroke="black" fill="none"/>
+    <!-- 6. Loch -->
+    <circle cx="300" cy="350" r="20" stroke="black" fill="none"/>
+
+
+    <!-- 4 Trillerklappen (von oben bis unten) -->
+    <ellipse cx="250" cy="210" rx="20" ry="5" stroke="black" fill="none"/>
+    <ellipse cx="250" cy="220" rx="20" ry="5" stroke="black" fill="none"/>
+    <ellipse cx="250" cy="230" rx="20" ry="5" stroke="black" fill="none"/>
+    <ellipse cx="235" cy="290" rx="20" ry="5" transform="rotate(90,260,280)" stroke="black" fill="none"/>
+
+    <!-- Zwischenklappe 1 -->
+    <ellipse cx="105" cy="215" rx="15" ry="5" transform="rotate(90,260,280)" stroke="black" fill="none"/>
+    <!-- Zwischenklappe 2 -->
+    <ellipse cx="335" cy="175" rx="17" ry="5" stroke="black" fill="none"/>
+    <!-- Zwischenklappe 3 -->
+    <ellipse cx="325" cy="250" rx="17" ry="5" transform="rotate(135,340,230)" stroke="black" fill="none"/>
+    <!-- Zwischenklappe 4 -->
+    <ellipse cx="270" cy="325" rx="17" ry="5" stroke="black" fill="none"/>
+
+    <!-- Zusatz-Registerheber 1 -->
+    <path d="M 353.1 224.4 L 353.1 220 A 16.6 19.3 0 1 1 353.1 256.5 L 353.1 252.1 A 11.1 13.8 0 0 1 353.1 224.4 Z" stroke="black" fill="none"/>
+    <!-- Zusatz-Registerheber 2 -->
+    <path d="M 353.1 224.4 L 353.1 220 A 16.6 19.3 0 1 0 353.1 256.5 L 353.1 252.1 A 11.1 13.8 0 0 0 353.1 224.4 Z" stroke="black" fill="none"/>
+    <!-- Zusatz-Registerheber 3 -->
+    <ellipse cx="353.1" cy="238.3" rx="11.1" ry="13.8" stroke="black" fill="none"/>
+    <!-- Zusatz-Registerheber 4 -->
+    <ellipse cx="260" cy="375" rx="20" ry="5" stroke="black" fill="none"/>
+    <!-- Zusatz-Registerheber 5 -->
+    <ellipse cx="260" cy="390" rx="20" ry="5" stroke="black" fill="none"/>
+
+    <!-- Hilfs-Trennlinien -->
+    <line x1="280" y1="225" x2="320" y2="225" stroke="black"/>
+    <line x1="222" y1="-10" x2="222" y2="100" stroke="black"/>
+    <line x1="268" y1="-10" x2="268" y2="100" stroke="black"/>
+  </g>
+</svg>
